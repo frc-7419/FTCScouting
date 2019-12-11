@@ -142,7 +142,7 @@ class TeamPickerTableViewController: FUIFormTableViewController {
     }
     
     @objc func pushNextViewController(sender: UIButton) {
-        let nextVC = SandstormTableViewController()
+        let nextVC = AutonTableViewController()
         nextVC.gameData = self.gameData
         self.navigationController?.pushViewController(nextVC, animated: true)
     }
